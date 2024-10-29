@@ -1,0 +1,20 @@
+package config;
+
+public class DatabaseConfig {
+
+    private static final String JDBC_URL = "jdbc:mysql://<host>:<port>/<database>";
+    private static final String USERNAME = "<user>";
+    private static final String PASSWORD = "<password>";
+
+    public String getJdbcUrl() {
+        return JDBC_URL;
+    }
+
+    public String getUsername() {
+        return USERNAME;
+    }
+
+    public String getPassword() {
+        return PASSWORD;
+    }
+}
