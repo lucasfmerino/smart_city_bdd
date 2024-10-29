@@ -12,7 +12,8 @@ public class LoginUserService {
     final LoginModel loginModel = new LoginModel();
     public Response response;
 
-    final String BASE_URL = "http://localhost:8080";
+//    final String BASE_URL = "http://localhost:8080";
+    final String BASE_URL = "https://fiap-smartcities-are7dabzbfb7bxe3.eastus2-01.azurewebsites.net";
 
 
     /**
